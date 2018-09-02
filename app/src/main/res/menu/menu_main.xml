@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/bluetooth1"
+        android:orderInCategory="100"
+        android:title="bluetooth"
+        app:showAsAction="always"
+        android:icon="@drawable/bluetooth1_off"/>
+    <item
+        android:id="@+id/discoverable"
+        android:orderInCategory="100"
+        android:title="discoverable"
+        app:showAsAction="always"
+        android:icon="@drawable/dis1_off"/>
+    <item
+        android:id="@+id/server"
+        android:orderInCategory="100"
+        android:title="START SERVER"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="HELP"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="REFRESH"
+
+        app:showAsAction="never"
+        />
+</menu>
